@@ -1,4 +1,45 @@
-.container {
-  margin: 0 auto;
-  width: 768px;
-}
+.container /* todo */
+  {
+    width: 768px;
+    margin: 70px auto;
+    float: center;
+  }
+
+nav
+  {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 1);
+    position: fixed;
+    top: 0;
+  }
+
+#logo
+  {
+    float: left;
+    margin: 0px 0px 0px 222px;
+  }
+
+div /* caja de texto */
+  {
+    width: 768px;
+  }
+
+ul /* menú */
+  {
+    margin: 0 0 0 530px;
+    list-style-type: none;
+    position: fixed;
+  }
+
+ul li /* links */
+  {
+    padding: .1em 1em;
+    float: right;
+    margin: 13px 3px 0px 20px; /* margen alrededor de la palabra */
+  }
+
+ul li a /* texto de links */
+  {
+    color: #fff; /* color del texto */
+    text-decoration: none; /* quita efectos de texto/links */
+  }
